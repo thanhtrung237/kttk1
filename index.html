@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Wrapper{
+            display: flex;
+            width: 1100px;
+            height: 700px;
+        }
+        .menu{
+            background-color: #800080;
+            color: white;
+            max-height: 400px;
+        }
+        ul li {
+            border-bottom: 2px solid white;
+            width: 80%; 
+            margin-left: 5%; 
+            box-sizing: border-box; 
+        }
+        .menu-id{
+            text-align: right;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .menu-item{
+            margin: 16px;
+        }
+
+        .menu-item>a{
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial;
+            margin-bottom: 16px;
+        }
+        .menu a:hover{
+            color: yellow;
+        }
+
+        .decoration{
+            width: 100%;
+            background-color: #fff;
+            height: 4px;
+            margin-top: 8px;
+        }
+
+        .item-input{
+            display: block;
+        }
+
+        .center-header1{
+            display: flex;
+        }
+
+        .center-section-and-header{
+            border: 2px solid green;
+            text-align: right;
+        }
+
+        .footer{
+            border-top: 2px solid green;
+            border-bottom: 2px solid green;
+            text-align: center;
+            margin-top: 32px;
+        }
+
+        .footer-south>p{
+            margin-bottom: 0;
+            margin-top: 4px;
+            color: #800080;
+        }
+
+        .center-header1-text{
+            background-color: #800080;
+            text-align: center;
+            width: 20%;
+        }
+
+        .center-header1, .center-header2, .center-section, .center-footer{
+            margin-left: 16px;
+        }
+        .center-header1 img{
+            width: 900px;
+        }
+        .center-header2 img{
+            width: 900px;
+        }
+        .center-section{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="Wrapper">
+        <div class="menu">
+            <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem; text-align: center;">Contents</h3>
+            <ul class="menu-id">
+                <li class="menu-item"><a href="">
+                    HOME</a>
+                </li>
+                <li class="menu-item"><a href="">
+                    SUBSCRIPTIONS</a>
+                </li>
+                <li class="menu-item"><a href="">
+                    CONTACT US</a>
+                </li>
+                <li class="menu-item"><a href="">
+                    WEATHER</a>
+                </li>
+                <li class="menu-item"><a href="">
+                    ENTERTAINMENT</a>
+                </li>
+                <li class="menu-item">
+                    <div class="item-input">
+                        <input type="text" placeholder="ID Member">
+                        <select name="" id="" style="margin-right: 89px;">
+                            <option value="">Choose...</option>
+                        </select>
+                        <button>Finish</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="center">
+            <div class="center-header1">
+                <img src="../img/header1.jpg" alt="" class="center-header1_img">
+            </div>
+            <div class="center-header2">
+                <img src="../img/header2.jpg"  alt="" class="center-header2_img">
+            </div>
+            <div class="center-section">
+                <img src="../img/h3.jpg" style="float: left;" alt="" class="center-section-img">
+                <div class="center-section-deatils">
+                    <div class="center-section-and-header">
+                        <h5 style="    text-align: center;font-family: Arial;font-size: 30px;color: #800080;">Park Opens</h5>
+                        <p style="text-align: center;
+                        font-style: italic;">12/6/2020</p>
+                    </div>
+                    <div class="center-section-and-text">
+                        <p style="font-size: 30px;">The <span style="font-style: italic;">Adventure Island</span> theme park opened its doors on Monday near Ridgewood. The park, one of the biggest in New Jersey, drew large crowds, but the long lines didn't deter anyone. "I've been watching them put up the rides over the last year, it's really exciting to finally get inside the gates!" said Ridgewood resident, Denise Brooks.</p>
+                        <a href="" style="margin: 0 0 32px 90%;">Read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-south">
+                    <p>MSSV: 22669481<br>
+                       Họ tên: Nguyễn Thành Trung<br>
+                       Lớp: DHKTPM18B
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
